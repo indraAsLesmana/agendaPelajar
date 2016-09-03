@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/grid1_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                card_view:cardBackgroundColor="#00695C"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="7dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/today_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/today_tv"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/today_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="info"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+
+                        />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                card_view:cardBackgroundColor="#283593"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="7dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/task_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/task_tv"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/task_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="info"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/grid2_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/grid1_view"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                card_view:cardBackgroundColor="#004D40"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="7dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/classes_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/classes_tv"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/classes_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="info"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                card_view:cardBackgroundColor="#C51162"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="7dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/exams_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exams_tv"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/exams_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="info"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_classes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/grid2_view"
+            android:layout_marginTop="15dp"
+            android:text="@string/classes_tv"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/classes_infobar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/tv_classes"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="7dp"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/name_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="A.P.B.O"
+                    android:textSize="20dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/room_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/name_class"
+                    android:text="R-404" />
+
+                <TextView
+                    android:id="@+id/timeend_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="15:40 - 17:50" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/classes_infobar"
+            android:layout_marginTop="15dp"
+            android:text="@string/task_tv"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/task_tv"
+            />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/task_infobar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/task_tv"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="7dp"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

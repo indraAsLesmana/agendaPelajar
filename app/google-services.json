@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "1002680202268",
+    "firebase_url": "https://agenda-pelajar-v4.firebaseio.com",
+    "project_id": "agenda-pelajar-v4",
+    "storage_bucket": "agenda-pelajar-v4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002680202268:android:66a53eae5a359e90",
+        "android_client_info": {
+          "package_name": "com.tutor93.agendapelajarv4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002680202268-c49bbld3aed2svpbasncnicc4fq4ofkj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tutor93.agendapelajarv4",
+            "certificate_hash": "5098CF1B578A8829A71DA3C6FA255A1E46F6FA73"
+          }
+        },
+        {
+          "client_id": "1002680202268-03q03d8cs6h4bul017n2o9ifaomakgb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4MIUuU_DQ7rU_9HwAVeg_zoOcH_m0kaQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
